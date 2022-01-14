@@ -23,7 +23,7 @@ def main():
     commit_msg_filepath = args.commit_msg_filepath
     template = args.template
     
-     print("Hello World")
+    print("Hello World")
 
     branch = ""
     try:
