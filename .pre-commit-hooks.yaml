@@ -1,6 +1,6 @@
 -   id: msg-rules-enforcement
-    name: Add issue as commit message prefix
-    description: Searches the branch name for something looking like a jira issue name and prepends the commit message with it
+    name: Message format enforcement
+    description: Verifies that commit message contains reference to task tracker and conventional versions prefix
     entry: msg-rules-enforcement
     language: python
     always_run: true
