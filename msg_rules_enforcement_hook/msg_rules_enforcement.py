@@ -22,6 +22,8 @@ def main():
     args = parser.parse_args()
     commit_msg_filepath = args.commit_msg_filepath
     template = args.template
+    
+     print("Hello World")
 
     branch = ""
     try:
