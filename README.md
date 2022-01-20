@@ -1,7 +1,14 @@
 msg-rules-enforcement-hook
 =========================
 
-A hook for pre-commit that enforces all commit messages to start with type of commit and issue tracker number. Example: "feat: ABC-123: <your message>". 
+A prepare-commit-msg hook for pre-commit.
+Enforece that commit message follows one of the following patterns:
+```
+fix: <issue tracker id>: <message>
+feat: <issue tracker id>: <message>
+docs: <message>
+test: <message about fixed test>
+```
 
 See also: https://github.com/pre-commit/pre-commit
 
