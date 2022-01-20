@@ -12,7 +12,7 @@ Add this to your `.pre-commit-config.yaml`
 
 ```yaml
 -   repo: https://github.com/snowindy/msg-rules-enforcement-hook
-    rev: v1.4.0  # Use the ref you want to point at
+    rev: v1.5.0  # Use the ref you want to point at
     hooks:
     -   id: msg-rules-enforcement
 ```
