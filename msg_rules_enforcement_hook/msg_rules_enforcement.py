@@ -5,7 +5,7 @@ import sys
 import re
 
 def get_match(message):
-    matches = re.findall('((feat|fix): ([\w\-]+)|docs|test): ', message)
+    matches = re.findall('(merge|(((feat|fix): ([\w\-]+)|docs|test): ))', message)
     if len(matches) > 0:
         return matches[0]
 
